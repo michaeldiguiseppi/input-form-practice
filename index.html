@@ -5,17 +5,21 @@
 </head>
 <body>
 <form>
-    User Name:
-    <input type="text" value="First">
-    Full Name:
-    <input type="text">
+    <label for="user-name">User Name:</label><br>
+    <input type="text" value="First" id="user-name" name="user-name"><br>
+    <label for="full-name">Full Name:</label><br>
+    <input type="text" id="full-name" name="full-name"><br>
 
-    Profile
-    <textarea rows="5" cols="10">
-        Write something here.
-    </textarea>
-    Hobbies
-    <textarea rows="5" cols="10"></textarea>
+    <label for="profile">Profile</label><br>
+    <textarea rows="5" cols="20" id="profile" name="profile">Write something here.
+    </textarea><br>
+    <label for="hobbies">Hobbies</label><br>
+    <textarea rows="5" cols="20" id="hobbies" name="hobbies"></textarea><br>
+    <label for="email">Email:</label><br><input type="email" id="email" name="email"><br>
+    <label for="date">Date:</label><br><input type="date" id="date" name="date"><br>
+    <label for="number">Number:</label><br><input type="number" id="number" name="number"><br>
+    <label for="file">File:</label><br><input type="file" id="file" name="file"><br>
+
 </form>
 </body>
 </html>

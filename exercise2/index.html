@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forms Exercise 5</title>
+</head>
+<body>
+    <label for="song-name">Song Name</label>
+    <input type="text" value="Somewhere Over the Rainbow" id="song-name">
+    <br><br>
+    <label for="songwriter-email">Songwriter Email</label>
+    <input type="email" id="songwriter-email" value="judy@garlan.net">
+    <br><br>
+    <input type="checkbox" id="aca-check">
+    <label for="aca-check">Aca-awesome?</label>
+    <br><br>
+    <input type="checkbox" id="will-win" checked>
+    <label for="will-win">Will win regionals?</label>
+    <br><br>
+    <label for="slight">Slight Diva</label>
+    <input type="radio" id="slight">
+    <input type="radio" checked>
+    <input type="radio" id="extreme">
+    <label for="extreme">Extreme Diva</label>
+    <br><br>
+    <label for="comments">Comments</label>
+    <br><br>
+    <textarea id="comments" rows="2" cols="15">Great song.
+Love it!</textarea>
+    <br><br>
+    <label for="hidden"><em>Super secret hidden field...</em></label>
+    <input type="hidden" id="hidden" value="42">
+    <br><br>
+    <label for="dropdown">Soloist</label>
+    <select id="dropdown">
+        <option value="57">Mercedes Jones</option>
+        <option>Tasia Martin</option>
+    </select>
+    <br><br>
+    <button>success</button>
+    <button>cancelled</button>
+    <button>I can <em>haz</em> html!</button>
+    <br><br>
+
+    <table>
+        <thead>
+            <th>Field Type</th>
+            <th>Field Name</th>
+            <th>Value</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>input (text)</td>
+                <td>song</td>
+                <td>Somewhere Over the Rainbow</td>
+            </tr>
+            <tr>
+                <td>input (email)</td>
+                <td>email</td>
+                <td>judy@garlan.net</td>
+            </tr>
+            <tr>
+                <td>input (checkbox)</td>
+                <td>will-win-regionals</td>
+                <td>true</td>
+            </tr>
+            <tr>
+                <td>input (radio)</td>
+                <td>diva-level</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>textarea</td>
+                <td>comment</td>
+                <td>Great song.
+Love it!</td>
+            </tr>
+            <tr>
+                <td>input (hidden)</td>
+                <td>secret-field</td>
+                <td>42</td>
+            </tr>
+            <tr>
+                <td>select</td>
+                <td>soloist</td>
+                <td>57</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
